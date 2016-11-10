@@ -22,7 +22,6 @@ public class Account {
     @Id
     private String id;
 
-    @Indexed(unique = true)
     private String email;
 
     private String password;
